@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7ZPFZ8Y1LF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-7ZPFZ8Y1LF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quiénes Somos? | Expertos en Ventanas y Puertas Termopanel | VENTANO</title>
+    <meta name="description"
+        content="Conoce a VENTANO: especialistas en ventanas y puertas de termopanel en PVC. Comprometidos con la calidad, el servicio y la satisfacción de nuestros clientes en Santiago.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.BPG4J9Qu.svg">
+    <!-- Datos estructurados LocalBusiness para SEO local -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "VENTANO SpA",
+      "image": "https://ventanospa.cl/public/favicon.svg",
+      "@id": "https://ventanospa.cl/",
+      "url": "https://ventanospa.cl/",
+      "telephone": "+56 9 6576 7430",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Los Militares 5620",
+        "addressLocality": "Las Condes",
+        "addressRegion": "RM",
+        "postalCode": "7550000",
+        "addressCountry": "CL"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.4095,
+        "longitude": -70.5671
+      },
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      }],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+56 9 6576 7430",
+        "contactType": "customer service",
+        "areaServed": "CL",
+        "availableLanguage": ["Spanish"]
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/main.CXTowvJd.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/main.C8uAc3K6.css">
+
+    <!-- Estilos personalizados para el nuevo header con logo -->
+    <style>
+        /* Header moderno con logo - usando colores del logo */
+        .header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #000000 100%);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            z-index: 1000;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .header__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 80px;
+            padding: 0 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* Logo styling */
+        .header__logo {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            height: 100%;
+            padding: 6px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .header__logo:hover {
+            transform: scale(1.02);
+        }
+
+        .header__logo-img {
+            height: 68px;
+            width: auto;
+            max-width: 300px;
+            object-fit: contain;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Navigation styling moderno */
+        .header__nav {
+            display: none;
+        }
+
+        .nav__list {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav__link {
+            font-weight: 500;
+            color: #ffffff;
+            transition: all 0.3s ease;
+            position: relative;
+            font-size: 0.95rem;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .nav__link:hover {
+            color: #d4af37;
+            background: rgba(212, 175, 55, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .nav__link::after {
+            content: "";
+            position: absolute;
+            bottom: -2px;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #d4af37, #b8941f);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+
+        .nav__link:hover::after {
+            width: 80%;
+        }
+
+        /* Dropdown styling mejorado */
+        .dropdown-menu {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%);
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(212, 175, 55, 0.2);
+            overflow: hidden;
+        }
+
+        .dropdown-menu a {
+            color: #ffffff;
+            padding: 1rem 1.5rem;
+            transition: all 0.3s ease;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+        }
+
+        .dropdown-menu a:last-child {
+            border-bottom: none;
+        }
+
+        .dropdown-menu a:hover {
+            background: rgba(212, 175, 55, 0.1);
+            color: #d4af37;
+            padding-left: 2rem;
+        }
+
+        /* Mobile toggle button styling */
+        .header__toggle {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 32px;
+            height: 32px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            padding: 0;
+            z-index: 1200;
+        }
+
+        .header__toggle span {
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, #ffffff, #ffdd00);
+            border-radius: 2px;
+            transition: all 0.3s ease;
+            transform-origin: center;
+        }
+
+        .header__toggle:hover span {
+            background: linear-gradient(90deg, #d4af37, #b8941f);
+        }
+
+        /* Responsive design */
+        @media (min-width: 992px) {
+            .header__nav {
+                display: block !important;
+            }
+
+            .header__toggle {
+                display: none;
+            }
+
+            .nav__list {
+                gap: 2.5rem;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .header__container {
+                height: 70px;
+                padding: 0 1rem;
+            }
+
+            .header__logo {
+                padding: 4px 0;
+            }
+
+            .header__logo-img {
+                height: 62px;
+                max-width: 280px;
+            }
+
+            .header__nav {
+                position: fixed;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                padding: 2rem;
+                transform: translateY(-100%);
+                opacity: 0;
+                visibility: hidden;
+                transition: all 0.3s ease;
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            }
+
+            .header__nav.active {
+                transform: translateY(0);
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .nav__list {
+                flex-direction: column;
+                gap: 1.5rem;
+                align-items: stretch;
+            }
+
+            .nav__link {
+                display: block;
+                padding: 1rem;
+                border-bottom: 2px solid rgba(212, 175, 55, 0.3);
+                font-size: 1.1rem;
+                text-align: center;
+            }
+
+            .nav__link::after {
+                display: none;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .header__container {
+                height: 60px;
+                padding: 0 0.8rem;
+            }
+
+            .header__logo {
+                padding: 3px 0;
+            }
+
+            .header__logo-img {
+                height: 54px;
+                max-width: 240px;
+            }
+
+            .header__nav {
+                top: 60px;
+                padding: 1.5rem;
+            }
+        }
+
+        /* Animaciones suaves */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            animation: fadeInDown 0.6s ease-out;
+        }
+
+        /* Efecto glassmorphism sutil */
+        .header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.05);
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__container">
+
+
+            <a href="index.html" class="header__logo" style="text-decoration:none; cursor:pointer;">
+                <img src="/assets/banner_horizontal_logo.png" alt="VENTANO SpA - Ventanas y Puertas Termopanel"
+                    class="header__logo-img">
+            </a>
+            <nav class="header__nav nav" id="mainNav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="quienessomos.html" class="nav__link">Quienes Somos</a>
+                    </li>
+                    <li class="nav__item dropdown" id="dropdown-especificaciones">
+                        <a href="#" class="nav__link dropdown-toggle" id="dropdownToggleEspecificaciones">Perfiles
+                            PVC</a>
+                        <div class="dropdown-menu" id="dropdownMenuEspecificaciones">
+                            <a href="s60doblecontacto.html">Tipo S60 doble contacto</a>
+                            <a href="slidingcorredera.html">Tipo Sliding/ Corredera</a>
+                            <a href="andes.html">Tipo Andes</a>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a href="ventajas.html" class="nav__link">Ventajas</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="galeria.html" class="nav__link">Galería</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contacto" class="nav__link">Contacto</a>
+                    </li>
+                    <!-- <div class="header__contact">
+                    <a href="tel:+56965767430" class="header__phone" aria-label="Llamar a Ventano Spa">
+                        <i class="fa-solid fa-phone"></i>
+                        <span class="header__phone-text">+56 9 6576 7430</span>
+                    </a>
+                </div> -->
+                </ul>
+            </nav>
+
+
+
+
+
+            <button class="header__toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!--Quienes Somos Section-->
+    <section class="products" id="quienes">
+        <div class="products__container">
+            <div class="section-header">
+                <h1 class="section-header__title">Quienes somos</h1>
+                <p class="section-header__subtitle">
+                    Somos una empresa enfocada en entregar <span class="hero__highlight">soluciones a medida de alta
+                        calidad.</span>
+                    Nos especializamos en la fabricación e instalación de Ventanas de PVC y Termopanel,<span
+                        class="hero__highlight"> para tus
+                        proyectos de construcción o remodelación.</span>
+                    Ayudamos a nuestros clientes, a disfrutar del Confort y Ventajas de las<span
+                        class="hero__highlight"> Ventanas de PVC y
+                        Termopanel</span>, entregando soluciones de alta calidad y excelencia en el servicio.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contacto">
+        <div class="contact__container">
+            <div class="section-header">
+                <h2 class="section-header__title">Solicita tu Presupuesto</h2>
+                <p class="section-header__subtitle">
+                    Contáctanos y recibe una cotización personalizada
+                </p>
+            </div>
+
+            <div class="contact__content">
+
+
+                <div class="contact__form">
+                    <form class="form" id="contactForm" action="sendmail.php" method="POST" autocomplete="on"
+                        novalidate>
+                        <div class="form__group">
+                            <label for="name" class="form__label">Nombre completo</label>
+                            <input type="text" id="name" name="name" class="form__input" required autocomplete="name"
+                                placeholder="Ej: Juan Pérez" aria-label="Nombre completo">
+                        </div>
+                        <div class="form__group">
+                            <label for="email" class="form__label">Email</label>
+                            <input type="email" id="email" name="email" class="form__input" required
+                                autocomplete="email" placeholder="Ej: correo@ejemplo.com"
+                                aria-label="Correo electrónico">
+                        </div>
+                        <div class="form__group">
+                            <label for="phone" class="form__label">Teléfono</label>
+                            <input type="tel" id="phone" name="phone" class="form__input" required autocomplete="tel"
+                                placeholder="Ej: +56 9 1234 5678" aria-label="Teléfono">
+                        </div>
+                        <div class="form__group">
+                            <label for="message" class="form__label">Mensaje</label>
+                            <textarea id="message" name="message" class="form__textarea" rows="4" required
+                                placeholder="Cuéntanos sobre tu proyecto..." aria-label="Mensaje"></textarea>
+                        </div>
+                        <div class="form__buttons">
+                            <button type="submit" class="btn btn--full" disabled>
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+
+
+                <div class="footer__section">
+                    <span class="footer__subtitle">Servicios</span>
+                    <ul class="footer__list">
+                        <li><a href="index.html" class="footer__link">Inicio</a></li>
+                        <li><a href="quienessomos.html" class="footer__link">Quienes Somos</a></li>
+                        <li><a href="s60doblecontacto.html" class="footer__link">Tipo S60 doble contacto</a></li>
+                        <li><a href="slidingcorredera.html" class="footer__link">Tipo Sliding/ Corredera</a></li>
+                        <li><a href="andes.html" class="footer__link">Tipo Andes</a></li>
+                        <li><a href="ventajas.html" class="footer__link">Ventajas</a></li>
+                        <li><a href="galeria.html" class="footer__link">Galería</a></li>
+                        <li><a href="#contacto" class="footer__link">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__section">
+                    <span class="footer__subtitle">Contacto</span>
+                    <ul class="footer__list">
+                        <li class="footer__item">📍 Oficina - Los Militares 5620, Las Condes</li>
+                        <li class="footer__item footer_item_telefono">📞<a href="tel:+56965767430">+56 9 6576 7430</a>
+                        </li>
+                        <li class="footer__item">✉️ <a href="mailto:contacto@ventanospa.cl">contacto@ventanospa.cl</a>
+                        </li>
+                        <li class="footer__item">🕒 Horario Lunes a Viernes: 9:00 - 18:00</li>
+                    </ul>
+
+                </div>
+
+                <div class="footer__section">
+                    <span class="footer__subtitle">Síguenos</span>
+                    <div class="footer__social">
+                        <!-- <a href="#" class="footer__social-link">Facebook</a> -->
+                        <a href="https://www.instagram.com/ventanospa" class="footer__social-link" target="_blank"
+                            rel="noopener" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=61577815516865" class="footer__social-link"
+                            target="_blank" rel="noopener" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <!-- <a href="#" class="footer__social-link">LinkedIn</a> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">
+                    © 2025 VENTANO. Todos los derechos reservados. Hecho por <a
+                        href="https://www.jochsconsultoring.com/">Jochs Consultoring</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/56965767430" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"
+            style="font-size: 2.5rem; color: #fff; background: #25D366; border-radius: 50%; width: px; height: 56px; display: flex; align-items: center; justify-content: center;"></i>
+    </a>
+
+
+</body>
+
+</html>

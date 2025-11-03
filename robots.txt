@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /andes/
+Disallow: /galeria/
+Disallow: /s60doblecontacto/
+Disallow: /sliding/
+Allow: /
+Sitemap: https://ventanospa.cl/sitemap.xml
